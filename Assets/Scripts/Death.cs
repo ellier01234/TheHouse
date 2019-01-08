@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Spikes : MonoBehaviour {
+public class Death : MonoBehaviour {
 
     // Unity calls this function automatically
-    // when our spikes touch any other object
+    // when our enemy touch any other object
     private void OnCollisionEnter2D(Collision2D collision)
     {
 
